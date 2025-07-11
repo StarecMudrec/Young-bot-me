@@ -1,9 +1,9 @@
 import datetime
 import disnake
 from dotenv import dotenv_values
-from components.jsonmanager import JsonManager, AddressType
-from components.logger import Logger, LogType
-from components.smartdisnake import MEBot
+from .components.jsonmanager import JsonManager, AddressType
+from .components.logger import Logger, LogType
+from .components.smartdisnake import MEBot
 # from console_manager import Console
 
 

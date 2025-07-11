@@ -3,7 +3,7 @@ import os
 from json import loads
 import argparse
 sys.path.insert(1, os.path.join(sys.path[0].replace("/app/scripts", "")))
-import bot_manager
+from . import bot_manager
 
 
 __all__ = [

@@ -12,6 +12,12 @@ class Main(commands.Cog):
         author = inter.author
         print(author.name, author.nick, author.global_name)
         await inter.response.send_message("Successful request")
+    @commands.slash_command(name="help",
+                            description="Вывод информации как зайти на сервер")
+    async def help(self, inter):
+        author = inter.author
+        print(author.name, author.nick, author.global_name)
+        await inter.response.send_message("https://unimice.ru/#guide")
 
 
 def setup(bot: commands.Bot):
